@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+/* global css for shuvo.com */
+
+body { 
+	color: #222;
+	background-color: #DFECF2;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 300;
+	font-size:14px;line-height:18px;
+	margin: 3em auto; width: 40em; 
+	text-align: center;
+    vertical-align: middle;
+	-webkit-font-smoothing: antialiased; 
+}
+a:link { 
+	color: #3A3A3A; 
+	text-decoration: none; 
+}
+a:visited { 
+	color: #A3A3A3; 
+	text-decoration: none; 
+}
+a:hover { 
+	text-decoration: underline; 
+}
+a:active { 
+	text-decoration: none; 
+}
+ul { 
+	display: block; 
+	margin: 0 0 1.5em;
+	list-style-position: outside; 
+	padding: 0; 
+}
+ul ul { 
+	margin: 0 0 .75em 2em; 
+}
+h1,h2 { 
+	font-weight: 300; 
+	text-align: left;
+}
+h1 { 
+	font-size: 28px; 
+	line-height: 28px; 
+	margin: 0 0 .1666em; 
+}
+h2 { 
+	font-size: 18px; 
+	line-height: 28px; 
+	letter-spacing: 0.75px; 
+}
+.line {
+    border-top: 1px dotted gray;
+}
